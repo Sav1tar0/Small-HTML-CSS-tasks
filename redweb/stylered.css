@@ -1,0 +1,185 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	font-family: Sans-Serif;
+	font-size: 12px;
+	line-height: 2em;
+	color: #959595;
+	background: #fff;
+}
+
+h1, h2, h3 {
+	color: darkred;
+}
+
+
+#page {
+	background: #fff;
+}
+
+
+#header {
+	background: #fff;
+}
+
+#header-inner {
+	width: 970px;
+	margin: 0 auto;
+}
+
+#logo {
+	float: left;
+}
+
+#logo h1 a {
+	color: darkred;
+	text-decoration: none;
+}
+
+#logo h1 span {
+	color: #f8dbdb;
+}
+
+
+#top-nav {
+	float: right;
+	height: 37px;
+}
+
+#top-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;   
+}
+
+#top-nav ul li {
+	float: left;
+	padding-left: 8px;
+}
+
+#top-nav ul li a {
+	display: block;
+	padding: 8px 20px;
+	color: red;
+	text-decoration: none;
+}
+
+#top-nav ul li a:hover {
+	color: #f8dbdb;
+}
+
+.feature {
+	background: red;
+	padding: 18px;
+}
+
+.feature-inner {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.feature-inner h1 {
+	color: #f8dbdb;
+	font-size: 32px;
+}
+
+#content-inner {
+	width: 970px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+#contentbar {
+	float: right;
+	width: 760px;
+}
+
+#contentbar .article {
+	padding: 0 20px 0 15px;
+}
+
+#sidebar {
+	float: left;
+	width: 200px;
+}
+
+#sidebar .widget {
+	padding: 8px 8px 8px 13px;
+	line-height: 1.4em;
+}
+
+#sidebar .widget ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;   
+}
+
+#sidebar .widget ul li {
+	padding: 4px 0;
+	width: 185px;
+}
+
+#sidebar .widget ul li a {
+	color: red;
+	text-decoration: none;	
+}
+
+#sidebar .widget ul li a:hover {
+	color: #f8dbdb;
+	font-weight: bold;
+}
+
+#butt{
+	margin-top: 18px;
+	width: 260px;
+	height: 25px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	text-decoration: none;
+}
+
+#footerblurb {
+	background: #f8dbdb;
+	color: red;
+}
+
+#footerblurb-inner {
+	width: 922px;
+	margin: 0 auto;
+	padding: 24px;
+}
+
+#footerblurb .column {
+	float: left;
+	width: 250px;
+	padding: 0 24px;
+	text-align: justify;
+}
+
+/* footer */
+#footer {
+	background: #fff;
+}
+
+#footer-inner {
+	width: 922px;
+	margin: 0 auto;
+	padding: 12px;
+	text-align: center;
+}
+
+#footer a {
+	color: red;
+	text-decoration: none;
+}
+
+/* clear */
+.clr {
+	clear: both;
+	height: 0;
+}

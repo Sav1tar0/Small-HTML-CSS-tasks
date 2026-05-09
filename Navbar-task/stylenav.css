@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(243, 241, 241);
+}
+
+header{
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+#logo{
+    padding-left:10px;
+    float: left;
+}
+
+#nav{
+    padding: 15px 20px;
+    float:right;
+    height: 40px;
+}
+
+#nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav ul li{
+    float: left;
+    padding-left: 20px;
+}
+
+
+#nav ul li a{
+    display:block;
+    padding: 13px ;
+    color: black;
+    text-decoration: none;
+}
+
+#clr {
+	clear: both;
+	height: 0;
+}
+
